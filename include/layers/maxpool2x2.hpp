@@ -16,6 +16,7 @@ struct MaxPool2x2 {
     }
     return out;
 }
+
 std::vector<Eigen::MatrixXf> backward(const std::vector<Eigen::MatrixXf> &g){
         int H=inH/2, W=inW/2; std::vector<Eigen::MatrixXf> dx(mask.size(), Eigen::MatrixXf::Zero(inH,inW));
         for(size_t ch=0; ch<mask.size(); ++ch)

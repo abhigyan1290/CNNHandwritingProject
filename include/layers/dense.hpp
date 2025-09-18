@@ -3,7 +3,6 @@
 #include <random>
 #include <cmath>
 
-
 struct Dense {
 Eigen::MatrixXf W; Eigen::VectorXf b; float lr; Eigen::VectorXf x;
 Dense(int in_dim, int out_dim, float lr_=0.01f): W(out_dim, in_dim), b(Eigen::VectorXf::Zero(out_dim)), lr(lr_){

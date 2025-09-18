@@ -42,7 +42,6 @@ uint32_t magic_l = read_be_u32(fl);
 uint32_t nl = read_be_u32(fl);
 if(magic_l != 2049 || nl != n) throw std::runtime_error("bad label idx");
 
-
 MNIST ds; ds.images.reserve(n); ds.labels.resize(n);
 std::vector<uint8_t> buf(28*28);
 for(uint32_t i=0;i<n;++i){

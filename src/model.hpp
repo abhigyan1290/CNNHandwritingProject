@@ -28,7 +28,6 @@ Eigen::VectorXf h_relu=r3.forward(h);
 return fc2.forward(h_relu);
 }
 
-
 float train_step(const Eigen::MatrixXf &img, int y){
 Eigen::VectorXf logits=forward(img);
 float loss=ce.forward(logits,y);

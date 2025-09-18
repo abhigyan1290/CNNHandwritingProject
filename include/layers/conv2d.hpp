@@ -13,7 +13,6 @@ Eigen::VectorXf b; // [out]
 
 std::vector<Eigen::MatrixXf> x_in;
 
-
 Conv2D(int in_, int out_, int k_, float lr_=0.01f)
     : in_ch(in_), out_ch(out_), k(k_), lr(lr_), b(Eigen::VectorXf::Zero(out_)){
     std::mt19937 rng(42); float scale = std::sqrt(2.f/(in_*k_*k_));
