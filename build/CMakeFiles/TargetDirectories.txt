@@ -1,0 +1,3 @@
+/home/abhigyandoshi/CNN/build/CMakeFiles/mnist_cnn.dir
+/home/abhigyandoshi/CNN/build/CMakeFiles/edit_cache.dir
+/home/abhigyandoshi/CNN/build/CMakeFiles/rebuild_cache.dir

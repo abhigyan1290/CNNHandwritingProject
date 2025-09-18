@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/mnist_cnn.dir/src/train.cpp.o -o mnist_cnn 

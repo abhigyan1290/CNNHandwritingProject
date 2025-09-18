@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/abhigyandoshi/CNN/build",
+  "command": "/usr/bin/c++  -I/home/abhigyandoshi/CNN/include -isystem /usr/include/eigen3 -std=gnu++17 -o CMakeFiles/mnist_cnn.dir/src/train.cpp.o -c /home/abhigyandoshi/CNN/src/train.cpp",
+  "file": "/home/abhigyandoshi/CNN/src/train.cpp",
+  "output": "CMakeFiles/mnist_cnn.dir/src/train.cpp.o"
+}
+]
