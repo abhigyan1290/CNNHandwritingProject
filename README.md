@@ -1,9 +1,9 @@
 # MNIST Convolutional Neural Network (C++ / Eigen)
 
-This project trains a small Convolutional Neural Network (CNN) from scratch in C++ using the [Eigen](https://eigen.tuxfamily.org/) linear-algebra library (and optional OpenCV for quick visual checks).  
+This project trains a Convolutional Neural Network (CNN) from scratch in C++ using the [Eigen] linear-algebra library 
 It classifies handwritten digits from the MNIST dataset.
 
-## 🚀 Overview of the Pipeline
+## Overview
 The training executable (`mnist_cnn`) performs these stages:
 
 ### 1. Load the MNIST data
